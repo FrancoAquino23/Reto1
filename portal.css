@@ -1,27 +1,24 @@
-/* 1. Definición de la Línea Gráfica y Variables */
 :root {
-    --azul-compupape: #0d6efd; /* Azul profesional para la marca */
-    --gris-texto: #4a4a4a;     /* Gris claro para cumplir el requisito de no usar negro */
+    --azul-compupape: #0d6efd;
+    --gris-texto: #4a4a4a;
     --fondo-suave: #f8f9fa;
 }
 
-/* 2. Estilos Globales y Box-Model */
 * {
-    box-sizing: border-box; /* Asegura que márgenes y rellenos se calculen correctamente */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--fondo-suave);
     color: var(--gris-texto);
     line-height: 1.6;
 }
 
-/* 3. Barra de Navegación Personalizada */
 .bg-primary-custom {
-    background-color: var(--azul-compupape) !important; /* Color de fondo distinto solicitado */
+    background-color: var(--azul-compupape) !important;
 }
 
 .navbar-nav .nav-link {
@@ -29,21 +26,18 @@ body {
     transition: color 0.3s ease;
 }
 
-/* 4. Estilos para el Artículo de Bienvenida */
 .welcome-container {
     max-width: 800px;
-    margin: 0 auto; /* Centrado horizontal mediante márgenes */
+    margin: 0 auto;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Requisito: Color claro (no negro) y tamaño de fuente de 18px */
 .custom-text {
-    font-size: 18px !important; /* Tamaño ajustado según requerimiento */
-    color: var(--gris-texto) !important; /* Color gris claro ajustado */
+    font-size: 18px !important;
+    color: var(--gris-texto) !important;
 }
 
-/* 5. Pie de Página */
 footer {
-    padding: 20px 0; /* Aplicación de margen/relleno adecuado */
+    padding: 20px 0;
     font-size: 0.9rem;
 }
